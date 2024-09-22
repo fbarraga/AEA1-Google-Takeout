@@ -1,5 +1,7 @@
 # google-location-history-analysis
 
+#python #fp #ceia&bd
+
 ## Descripció
 
 En aquest repositori trobaràs els scripts de Python i Jupyter notebooks per analitzar [Google Location History](https://support.google.com/accounts/answer/4388034?hl=en) les dades recuperades de [Google Takeout](https://takeout.google.com/settings/takeout). 
