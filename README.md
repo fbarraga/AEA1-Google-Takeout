@@ -18,12 +18,14 @@ Basats en el github de Stefan4472 https://github.com/Stefan4472/google-location-
 
 ## Setup
 
-Clone this repository:
+Clonar aquest repositori:
+
 ```shell
-git clone https://github.com/Stefan4472/google-location-history-analysis.git
+git clone https://github.com/fbarraga/google-location-history-analysis.git
 ```
 
-Create a python virtual environment:
+Crear un entorn virtual de python:
+
 ```shell
 cd google-location-history-analysis
 python -m venv env
@@ -31,19 +33,22 @@ python -m venv env
 call env\Scripts\activate
 ```
 
-Install the required packages:
+Instal·lar els paquets necessaris:
+
 ```shell
 python -m pip install -r requirements.txt
 ```
 
-Prepare your Takeout data:
+Preparar les dades de Google Takeout:
+
 ```shell
 python prepare_data.py <INSERT_PATH_TO_TAKEOUT_ZIP>
 ```
 
-Start Jupyter Notebook:
+Executar Jupyter Notebook:
+
 ```shell
 python -m jupyter notebook
 ```
 
-Go to the link shown in the command line, e.g. `http://localhost:8888/?token=...` and try out the `analyze_activities.ipynb` and `analyze_places.ipynb` notebooks on your own data!
+Aneu a l'enllaç que es mostra a la línia d'ordres, per exemple, 'http://localhost:8888/?token=...' i proveu els quaderns 'analyze_activities.ipynb' i 'analyze_places.ipynb' amb les vostres pròpies dades!
