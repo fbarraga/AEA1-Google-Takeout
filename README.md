@@ -2,9 +2,9 @@
 
 En aquest repositori trobaràs els scripts de Python i Jupyter notebooks per analitzar [Google Location History](https://support.google.com/accounts/answer/4388034?hl=en) les dades recuperades de [Google Takeout](https://takeout.google.com/settings/takeout). 
 
-You can use [prepare_data.py](prepare_data.py) to read your zipped Takeout data and write it out to CSV files. Then you can use the [analyze_activities](analyze_activities.ipynb) and [analyze_places](analyze_places.ipynb) Jupyter notebooks to analyze your data interactively.
+Pots utilitzar l'script [prepare_data.py](prepare_data.py) per llegir la informació de Takeout que es troba enzippada i reescriure-la en format CSV. Després pots utilitzar els notebooks de juypter [analyze_activities](analyze_activities.ipynb) i [analyze_places](analyze_places.ipynb) per analitzar les dades interactivament.
 
-This project uses the [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/), and [bokeh](https://bokeh.org) python libraries and was tested with Python 3.11. **The minimum version of Python required is 3.10 due to [a bug in the Zipfile library](https://bugs.python.org/issue40564) that existed before 3.10.**
+Aquest projecte utilitza [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/), i [bokeh](https://bokeh.org) llibreries que s'han provat amb versions de Python 3.11. **La versió mínima de Python requerida es la 3.10 degut a [un bug a la llibreria Zipfile](https://bugs.python.org/issue40564) que existia abans de la versió 3.10**
 
 # Setup
 
