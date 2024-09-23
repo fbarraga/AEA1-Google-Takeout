@@ -51,4 +51,29 @@ Executar Jupyter Notebook:
 python -m jupyter notebook
 ```
 
+
+Estructura del fitxer zip descarregat de Google Takeout:
+
+```bash
+E:.
+|   takeout_parser.py
+|
+\---Takeout
+    |   archive_browser.html
+    |
+    \---Location History
+        |   Records.json
+        |   Settings.json
+        |   Tombstones.csv
+        |
+        \---Semantic Location History
+            +---2022
+            |       2022_DECEMBER.json
+            |       2022_NOVEMBER.json
+            |
+            \---2023
+                    2023_FEBRUARY.json
+                    2023_JANUARY.json
+```bash
+
 Aneu a l'enllaç que es mostra a la línia d'ordres, per exemple, 'http://localhost:8888/?token=...' i proveu els quaderns 'analyze_activities.ipynb' i 'analyze_places.ipynb' amb les vostres pròpies dades!
