@@ -74,6 +74,6 @@ E:.
             \---2024
                     2024_FEBRUARY.json
                     2024_JANUARY.json
-```bash
+```
 
 Aneu a l'enllaç que es mostra a la línia d'ordres, per exemple, 'http://localhost:8888/?token=...' i proveu els quaderns 'analyze_activities.ipynb' i 'analyze_places.ipynb' amb les vostres pròpies dades!
